@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 
 public class client {
     public static void main(String[] args) throws IOException{
-        Socket s = new Socket("172.17.0.1", 4999);
+        Socket s = new Socket("192.168.2.33", 4999); 
         Scanner in = new Scanner(System.in);
         System.out.println("------------ Kangaroo Words ------------");
         System.out.print("==================================");
