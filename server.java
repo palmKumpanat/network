@@ -14,10 +14,10 @@ public class server {
         BufferedReader Bf = new BufferedReader((input));
         String w1 = Bf.readLine();
         String w2 = Bf.readLine();
-        System.out.print("==================================");
+        System.out.println("==================================");
         System.out.println("Entered Word From Client : " + w1);
         System.out.println("Entered Word that Client want to find : " + w2);
-        System.out.print("==================================");
+        System.out.println("==================================");
         PrintWriter p = new PrintWriter(s.getOutputStream());
         int i, j=0, k=0;
         int c1 = w1.length();

@@ -10,12 +10,12 @@ public class client {
         Socket s = new Socket("192.168.2.33", 4999); 
         Scanner in = new Scanner(System.in);
         System.out.println("------------ Kangaroo Words ------------");
-        System.out.print("==================================");
-        System.out.print("Enter Word : ");
+        System.out.println("==================================");
+        System.out.println("Enter Word : ");
         String word1 = in.nextLine();
-        System.out.print("Enter word do you want to find : ");
+        System.out.println("Enter word do you want to find : ");
         String fWord = in.nextLine();
-        System.out.print("==================================");
+        System.out.println("==================================");
         PrintWriter p = new PrintWriter(s.getOutputStream());
         p.println(word1);
         p.flush();
