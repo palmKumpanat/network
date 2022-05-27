@@ -11,9 +11,9 @@ public class client {
         Scanner in = new Scanner(System.in);
         System.out.println("------------ Kangaroo Words ------------");
         System.out.println("==================================");
-        System.out.println("Enter Word : ");
+        System.out.print("Enter Word : ");
         String word1 = in.nextLine();
-        System.out.println("Enter word do you want to find : ");
+        System.out.print("Enter word do you want to find : ");
         String fWord = in.nextLine();
         System.out.println("==================================");
         PrintWriter p = new PrintWriter(s.getOutputStream());
